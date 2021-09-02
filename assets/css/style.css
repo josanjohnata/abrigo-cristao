@@ -1,0 +1,219 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: #F4F7F0;
+	color: #495551;
+}
+
+#hero{
+	background-size: cover; padding: 8em 0; background-repeat: no-repeat;
+}
+
+#hero h1{
+	font-weight: bold; color: #FFFFFF; line-height: 1.5; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); font-size: 3em;
+}
+
+#hero a{
+	background-color: #FF922E; padding: 10px 30px; text-transform: uppercase; color: #FFF; font-size: 1.2em; border-radius:10px; margin:2em 0; display: inline-block; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); text-decoration: none;
+}
+
+#hero .logotipo{
+	text-align: right;
+}
+
+#hero .logotipo-small{
+	text-align: center;
+	margin-bottom:5em;
+}
+
+#hero .logotipo img{
+	margin-top: 5em;
+}
+
+.separador{
+	background:url('../img/separador.png') repeat-x; height: 10px;
+}
+
+.separador-video{
+	margin-top: -6px;
+}
+
+.separador2{
+	background:url('../img/separador2.png') repeat-x; height: 10px;
+}
+
+#missao{
+	padding: 8em 0;
+}
+
+#missao h2{
+	font-weight: bold; font-size: 2.2em; line-height: 1.5;margin-bottom: 1em; color: #495551;
+}
+
+#missao p{
+	font-size: 1.7em; line-height: 1.5; margin-right: 2em; color: #495551;
+}
+
+#missao .valores{
+	margin-top: 5em;
+}
+#missao .valores > div{
+	margin-bottom: 2em;
+}
+
+#missao .valores img{
+	float: left;
+	max-width: 100%;
+}
+
+#missao .valores h3{
+	font-weight: bold;
+	margin-top: 0;
+}
+
+#missao .valores p{
+	font-size: 1.1em;
+}
+
+#video{
+	padding-bottom: 8em;
+}
+
+#ajuda {
+	text-align: center;
+	margin-bottom: 5em;
+}
+
+#ajuda h2{
+	font-weight: bold; font-size: 2.2em; line-height: 1.5;margin-bottom: 1em; color: #495551;
+}
+
+#ajuda p{
+	font-size: 1.7em; line-height: 1.5; margin-right: 2em; color: #495551;margin-bottom: 2em;
+}
+
+#ajuda .box{
+	margin: 2em 0;
+	padding: 3em 4em;
+	border-radius: 20px;
+	color: #FFFFFF; 
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+	line-height: 1.5;
+}
+
+#ajuda .box h3{
+	font-weight: bold;
+}
+
+#ajuda .box p{
+	font-size: 1.2em;
+	color: #FFFFFF;
+	text-align: center;
+	margin-right: 0;
+}
+
+#ajuda .box-first{
+	margin-top: 5em;
+}
+
+#ajuda .box.orange{
+	background-color: #F2994A;
+}
+
+#ajuda .box.green{
+	background-color: #C0EA6A;
+}
+
+#ajuda .box.blue{
+	background-color: #56CCF2;
+}
+
+#ajuda .box.yellow{
+	background-color: #F2C94C;
+}
+
+#contato {
+	color: #FFFFFF;
+	background-color: #56CCF2; 
+	padding: 0;
+	display: flex;
+}
+
+#contato .informacoes{
+	padding: 3em;
+	min-width: 300px;
+}
+
+#contato .informacoes h2, #contato .informacoes p{
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+#contato .informacoes h2{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#contato .informacoes p > span{
+	font-weight: normal;
+	margin-left: 10px;
+}
+
+#contato iframe{
+	z-index: 999;
+}
+
+.separador-top{
+	position: relative;
+	z-index: 9;
+	top: 10px;
+}
+
+.separador-bottom{
+	position: relative;
+	bottom: 10px;
+	z-index: 9;
+}
+
+#mais-informacoes{
+	text-align: left;
+}
+
+#mais-informacoes h2{
+	font-weight: bold; font-size: 2em; line-height: 1.5;margin-bottom: 1em; color: #495551;
+}
+
+#mais-informacoes p{
+	font-size: 1.4em; line-height: 1.5; margin-right: 2em; color: #495551;
+}
+
+#mais-informacoes .imagem{
+	text-align: center;
+}
+
+#mais-informacoes img{
+	max-width: 70%;
+}
+
+#mais-informacoes .row{
+	margin: 6em 0;
+}
+
+footer{
+	background-color: #56CCF2;
+	padding: 3em;
+	color: #FFFFFF;
+}
+
+footer .logotipo-rodape{
+	text-align: center;
+}
+
+footer img{
+	max-width: 80%;
+	margin-bottom: 2em;
+}
+
+footer h3{
+	font-weight: bold;
+	text-transform: uppercase;
+}
